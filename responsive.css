@@ -1,0 +1,19 @@
+@media (max-width: 575px) {
+  .article-preview-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.41fr 2fr;
+    width: 88%;
+  }
+  .article-image {
+    border-radius: 10px 10px 0 0;
+  }
+  .article-info {
+    border-radius: 0 0 10px 10px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .author-detail {
+    margin-left: 1em;
+  }
+}

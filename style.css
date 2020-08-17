@@ -84,30 +84,35 @@ h2 {
 }
 .share-button {
   background: var(--light-grayish-blue);
-  padding: 0.5em;
-  width: 20px;
+  padding: 0.5em 0.3em 0.3em 0.5em;
   height: 20px;
+
   justify-self: flex-end;
   border-radius: 50%;
   fill: var(--very-dark-grayish-blue);
 }
+.social-icons a {
+  margin: 0 0.5em;
+}
 /*Active-buttom*/
 .share-button-clicked {
-  padding: 10px;
   border-radius: 50%;
   background-color: var(--desaturated-dark-blue);
   fill: #fff;
 }
 .bubble {
-  position: absolute;
   display: none;
+  position: absolute;
   align-items: center;
+}
+.bubble-mobile {
+  display: none;
 }
 .share-active {
   position: relative;
-  bottom: 140px;
+  bottom: 90px;
   left: 325px;
-  padding: 15px 25px;
+  padding: 15px 30px;
   display: flex;
   width: 200px;
   align-items: center;
@@ -125,7 +130,7 @@ h2 {
 }
 .triangle {
   position: relative;
-  bottom: 140px;
+  bottom: 90px;
   left: 440px;
   width: 0;
   height: 0;
